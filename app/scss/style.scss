@@ -1,0 +1,389 @@
+// scss file 
+@import 'variables';
+@import 'scrolling-nav';
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Amatic-Bold' !important;
+    color: $default-color;
+    font-size: 25px;
+  }
+
+html {
+    width: 100%;
+    height: 100%; 
+}
+
+
+h1, h2, h3,{
+  color: $default-color;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: $font-size-h1;
+}
+
+.dividers{
+  font-size: $dividers-h2;
+  font-family: 'BacktoBlackDemo' !important;
+}
+
+
+.vt-nav-bar{
+  background-image: url(#{$url-image-path}/bg-noise.png);
+  background-color: #fff;
+  border-bottom: 1px dashed #CFCFCF;
+}
+
+.vt-navbar-nav a{
+  color: $default-color !important;
+}
+
+.disable-text{
+  overflow: hidden;
+  text-indent: -99999px;
+  font-size: 0;
+}
+
+.normal-type{
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+}
+////// CUSTOM MENU ////////
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: $default-color;
+    background-color: #EEEEEE;
+}
+
+///// //// ////  INTRO  /// /// /// ///
+#intro,
+#quando,
+#onde,
+#casal-photos,
+#RSVP,
+#presentes,
+#ondeficar{
+      background-image: url(#{$url-image-path}/bg-noise.png);
+      background-color: #FFF;
+}
+
+.monograma{
+  margin: 0 auto;
+  display: block;
+}
+
+.title-intro{
+  font-size: $font-size-h1;
+  letter-spacing: 0.18em;
+  font-family: 'Amatic-Bold' !important;
+  margin-top: 35px;
+}
+.btn-intro{
+  margin-top: 50px;
+  display: block;
+}
+
+// QUANDO SECTION
+.d-quando{
+  width: 100%;
+  height: 38px;
+  background: url(#{$url-image-path}/divide-quando.png) center no-repeat;
+  margin-bottom: 80px;
+}
+
+.thumbs-noivos{
+  width: 198px;
+  height: 198px;
+  @extend .disable-text;
+}
+
+.van{
+  background: url(#{$url-image-path}/vanessa-thumb.png) top left no-repeat;
+  margin: 40px 0 0 110px;
+}
+
+.cardoso{
+  background: url(#{$url-image-path}/cardoso-thumb.png) top left no-repeat;
+  margin: 40px 0 0 -50px;
+}
+
+.hearts-wedding{
+    @extend .disable-text;
+    width: 118px;
+    height: 24px;
+    background: url(#{$url-image-path}/hearts-wedding.png) top left no-repeat;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.wedding{
+  font-family: 'BirchStd' !important;
+}
+
+.wedding span{
+  width: 340px;
+  border-bottom: solid 2px black;
+  display: block;
+  margin: 0 auto;
+}
+
+.wedding-date{
+  font-size: 65px;
+  letter-spacing: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.wedding p{
+  font-size: 35px;
+  letter-spacing: 0.48em;
+  padding: 20px 0 30px 15px;
+}
+
+
+.faltam-apenas span{
+   display: inline-block;
+   font-size: 35px;
+   letter-spacing: 0.3em;
+   padding: 0 50px 50px 50px;
+   vertical-align: top;
+}
+
+.faltam-apenas h3{
+  display: inline-block;
+  font-size: 35px;
+  font-family: 'BacktoBlackDemo' !important;
+  margin-top: 20px;
+}
+
+#countdown-wedding{
+   font-size: 35px;
+   letter-spacing: 0.2em;
+    padding: 20px 0 0 20px;
+}
+
+#countdown-wedding span{
+  width: 52px;
+  height: 56px;
+  background: url(#{$url-image-path}/circle-countdown.svg) 0 0 no-repeat;
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+// ONDE SECTION
+
+.d-onde{
+  width: 100%;
+  height: 38px;
+  background: url(#{$url-image-path}/divide-onde.png) center no-repeat;
+  margin-bottom: 100px;
+}
+
+.onde-cerimonia{
+}
+
+.onde-cerimonia h2, 
+.onde-recepcao h2{
+  font-size: 35px;
+  font-family: 'BacktoBlackDemo' !important;
+}
+
+.onde-cerimonia p,
+.onde-recepcao p {
+  font-size: 35px;
+  letter-spacing: 0.05em;
+};
+
+.church-ico,
+.drink-ico{
+  @extend .disable-text;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.church-ico{
+  width: 66px;
+  height: 112px;
+  background: url(#{$url-image-path}/igreja.png) top left no-repeat;
+}
+
+.drink-ico{
+  width: 72px;
+  height: 103px;
+  background: url(#{$url-image-path}/drink.png) top left no-repeat;
+  margin-top: 10px;
+  
+}
+
+.address{
+   font-family: 'BirchStd' !important;
+   font-size: 28px !important;
+   line-height: 40px;
+   padding-top: 15px;
+}
+
+.btn-maps{
+
+}
+
+///// //// ////  NÓS SECTION - PHOTOS /// /// /// ///
+
+.d-nos{
+  width: 100%;
+  height: 114px;
+  background: url(#{$url-image-path}/divide-nos.png) top no-repeat;
+  margin-bottom: 100px;
+}
+.d-nos h1{
+  padding:60px 0 0 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.flickity-page-dots{
+  bottom: -65px;
+}
+
+
+
+
+///// //// ////  RSVP SECTION   /// /// /// ///
+
+.d-RSVP{
+  width: 100%;
+  height: 114px;
+  background: url(#{$url-image-path}/divide-RSVP.png) top no-repeat;
+  margin-bottom: 100px;
+}
+// FORM STYLES 
+.btn-confirmar{
+  font-size: 28px;
+  border-radius: 100px;
+  width: 188px;
+  background-color: $complementary-color;
+  color: #FFF;
+  padding: 5px;
+  margin-top: 50px;
+  border: none;
+}
+.btn-confirmar:hover{
+  background-color: #507158;
+  color: #FFF;
+}
+.input-custom{
+  border: 1px dashed $default-color;
+  width: 316px;
+  height: 60px;
+  font-size: 28px;
+}
+
+.label-email-align{
+  float: left;
+  margin-left: 4px;
+}
+
+.title-RSVP{
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.checkbox input[type=checkbox]{
+  margin-top: 12px;
+  margin-left: -30px;
+}
+
+.text-RSVP{
+  @extend .normal-type;
+  color: $default-color;
+  margin-top: 50px;
+}
+
+///// //// ////  PRESENTES SECTION   /// /// /// ///
+.title-presentes{
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding-bottom: 80px;
+  margin: -20px 0 0 0;
+}
+.box-presentes{
+  width: 345px;
+  height: 320px;
+  border: 1px dashed $default-color;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.box-presentes img{
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+.logos-gift{
+  margin: 0 auto;
+  display: block;
+}
+
+.box-presentes i{
+  @extend .normal-type;
+  font-size: 14px;
+}
+.gifts-pnbc{
+  padding: 10px 20px 0 20px;
+  line-height: 13px;
+}
+.gifts-ciriana{
+  margin-top: -10px;
+}
+
+
+///// //// ////  ONDE FICAR SECTION   /// /// /// ///
+.title-ondeficar{
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding-bottom: 80px;
+  margin: -20px 0 0 0;
+  line-height: 40px;
+}
+
+#googleMap{
+  width:100%; 
+  height:320px; 
+  margin-bottom:100px;
+}
+
+#iw_container .iw_title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.iw_content {
+  padding: 15px 15px 15px 0;
+}
+
+.footer-img{
+  margin-top: 40px;
+}
+.footer-text{
+  font-family: 'BacktoBlackDemo' !important;
+  font-size: 35px;
+}
+.fb-comments{
+  margin-top: 100px
+}
+
+
+//  ----  RESPONSIVE MEDIA QUERIES  ----- //
+
+@import 'media-queries';
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="43px" viewBox="0 0 32 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>party-ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="party-ico">
+            <g id="Group">
+                <g>
+                    <ellipse id="Oval-2" fill="#FFFFFF" cx="16.2268183" cy="15.2268183" rx="13.0450001" ry="13.0450001"></ellipse>
+                    <g transform="translate(0.000000, 0.298121)" id="Shape" fill="#EF4E42">
+                        <path d="M15.9997561,0.169275109 C7.42917818,0.169293804 0.481727515,6.8669925 0.481656242,15.1289471 C0.481656242,23.390925 16.4722327,42.2345065 16.4722327,42.2345065 C16.4722327,42.2345065 31.5183549,23.390925 31.5183549,15.1289471 C31.5183549,6.8669925 24.5702623,0.169293804 15.9997561,0.169275109 L15.9997561,0.169275109 Z M15.9997561,3.20584163 C22.8306664,3.20583647 28.3682235,8.5439867 28.3682497,15.1289471 C28.3682208,21.7139056 22.8306645,27.052053 15.9997561,27.0520478 C9.1688754,27.0520153 3.63136225,21.713879 3.63133333,15.1289471 C3.63135957,8.54401335 9.16887351,3.20587415 15.9997561,3.20584163 L15.9997561,3.20584163 Z"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="noun_36200_cc" transform="translate(11.636364, 7.010870)" fill="#000000">
+                <g id="Group">
+                    <g>
+                        <rect id="Rectangle-path" x="0" y="0" width="1.57248157" height="18.2282609"></rect>
+                        <polygon id="Shape" points="2.75184275 10.8025231 2.75184275 0.965718071 14.1708108 5.94924864"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

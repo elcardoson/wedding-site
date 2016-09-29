@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+  </head>
+  <body>
+    <!-- Contact Form - sent to a Google Sheet -->
+                    <form id="RSVP" data-toggle="validator">
+                      <div class="col-sm-6">
+                          <div class="form-group">
+                            <label for="nome" class="label-email-align">SEU NOME:*</label>
+
+                            <input id="nome" name="nome" type="text" class="form-control input-custom" placeholder="nome" data-error="Opss!&nbsp;&nbsp;Precisamos saber seu nome, &nbsp; rs" required>
+
+                            <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6">
+                          <div class="form-group">
+                            <label for="email" class="label-email-align">E-MAIL:*</label>
+
+                            <input id="email" name="email" type="email" class="form-control input-custom" placeholder="digite seu email" data-error="Hey! &nbsp;&nbsp;Você tem certeza que este email é válido?" required>
+
+                            <div class="help-block with-errors"></div>
+                          </div> 
+                      </div>    
+                      <div class="col-sm-6">
+                         <p class="title-RSVP">OPA! &nbsp;&nbsp;EU ESTAREI PRESENTE NA:</p>
+                      </div>
+                      <div class="col-sm-6">
+
+                         <div class="col-sm-6">
+                           <div class="checkbox">
+                                <div class="form-group">
+                                    <label>
+
+                                      <input id="cerimonia" type="checkbox" name="cerimonia" value="sim">CERIMÔNIA
+
+                                    </label>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-sm-6">
+
+                            <div class="checkbox">
+                                <div class="form-group">
+                                    <label>
+
+                                      <input id="recepcao" type="checkbox" name="recepcao" value="sim">RECEPÇÃO / FESTA
+
+                                    </label>
+                                </div>
+                            </div> 
+                         </div>                         
+                     </div>
+                </div>
+                      <div class="col-md-12"> 
+                        <button type="submit" class="btn btn-default btn-confirmar">CONFIRMAR</button>
+                    
+                     <p class="text-RSVP">Por favor, pedimos que confirme sua presença até 1º de Novembro. </br>
+                        Qualquer problema, envie um e-mail para alinelimaeventos@hotmail.com.</p>
+                    </div>
+                    </form>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src='google-sheet.js'></script>
+
+</html>

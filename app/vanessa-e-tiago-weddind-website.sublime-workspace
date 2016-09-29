@@ -1,0 +1,365 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"ur",
+				"url-image-path"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"PAD",
+				"padding-bottom"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"Clar",
+				"Claro-SP"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"FON",
+				"font-size"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"fo",
+				"font-size-h1"
+			],
+			[
+				"FONT",
+				"font-family"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"spa",
+				"letter-spacing"
+			],
+			[
+				"broy",
+				"browserSync"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/media-queries.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/gulpfile.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/index.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/style.scss",
+		"/Users/elcardoson/Downloads/startbootstrap-scrolling-nav-gh-pages/index.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/css/flickity.css",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/countdown.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/map.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/scrolling-nav.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/scrolling-nav.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/google-sheet.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/test-spreadsheet/google-sheet.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/test-spreadsheet/index.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/test-spreadsheet/test-resposta.html",
+		"/Users/elcardoson/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/elcardoson/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/test-spreadsheet/index_ajax.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/test-spreadsheet/index_ajax",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/variables.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/setup.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/font-face.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/custom-google-maps.js",
+		"/Users/elcardoson/Desktop/maps.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/custom-google-maps copy.js",
+		"/Users/elcardoson/Movile/kiwi-manager-ui/less/kw-buttons.less",
+		"/Users/elcardoson/Downloads/Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/demo/index.html",
+		"/Users/elcardoson/Downloads/Amatic-Bold (1)/preview.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/flickity.js",
+		"/Users/elcardoson/Downloads/Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.js",
+		"/Users/elcardoson/Downloads/Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.min.js",
+		"/Users/elcardoson/Downloads/Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/jquery.countdown.css",
+		"/Users/elcardoson/Downloads/Minimal-jQuery-Countdown-Plugin-with-Custom-Timezone-Countdown-Clock/countdown.jquery.json",
+		"/Users/elcardoson/Movile/kiwi-manager-ui/less/kw-variables.less",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/old/css/font-awesome.min.css",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/css/style.css",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/css/variables.css",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/sections.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/scss/general-structure.scss",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/site-ck.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/js/jribbble.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/css/style copy.css",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/browser-sync/README.md",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/browser-sync/node_modules/yargs/README.md",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/browser-sync-ui/public/js/app.js.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/engine.io/README.md",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/engine.io/node_modules/mime-db/db.json",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/fsevents/node_modules/mime-db/db.json",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/fsevents/node_modules/tar/lib/extended-header-writer.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/fsevents/node_modules/tough-cookie/lib/pubsuffix.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/jshint/README.md",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/jshint/dist/jshint-rhino.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/jshint/dist/jshint.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/jshint/node_modules/lodash/index.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/jshint/node_modules/lodash/string/template.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/localtunnel/node_modules/tough-cookie/lib/pubsuffix.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/lodash.template/index.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/mime-db/db.json",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/node-sass/src/libsass/Readme.md",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/readdirp/README.md",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.all.compat.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.all.compat.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.all.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.all.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.compat.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.compat.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.lite.compat.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.lite.compat.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.lite.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.lite.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/rx/dist/rx.map",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/tar/lib/extended-header-writer.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/tough-cookie/lib/pubsuffix.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/weinre/web/doc/ChangeLog.html",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/node_modules/yargs/README.md",
+		"/Users/elcardoson/Movile/Daily-Indicator/gulpfile.js",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/Site/website/app/css/main.css",
+		"/Users/elcardoson/Box Sync/_2016/Casamento/_Site/_website/app/index.html",
+		"/Volumes/ELCARDOSON/_2015/#2015/Cardoso_cc/untitled folder/assets/css/main.css",
+		"/Volumes/ELCARDOSON/_2015/#2015/Cardoso_cc/untitled folder copy/assets/js/site-ck.js",
+		"/Volumes/ELCARDOSON/_2015/#2015/Cardoso_cc/untitled folder copy/assets/css/main.css",
+		"/Users/elcardoson/Movile/Information Center/wordpress/wp-config-sample.php",
+		"/Users/elcardoson/Box Sync/_2016/_My Sites /vanecardoso.com.br/wp-config-sample.php",
+		"/Users/elcardoson/Box Sync/2016/_My Sites /foodtruckcampinas.com/header.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"page-top",
+			"phone",
+			".</",
+			";\n",
+			"marker",
+			"displaymarkers",
+			"hero",
+			"HERO",
+			"work",
+			"networks",
+			"netwhens",
+			"work",
+			"startHeader",
+			"hero",
+			"start",
+			"hero"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"where",
+			"when",
+			"startHeader"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}

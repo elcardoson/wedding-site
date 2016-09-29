@@ -1,0 +1,103 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #FFF;
+  color: black;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center; }
+
+h2 {
+  color: #2A3A44;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* =========================
+
+		GENERAL STYLES 
+
+   =========================*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none; }
+
+a:link,
+a:visited,
+a:active {
+  font-weight: 600;
+  color: #2A3A44;
+  text-decoration: none; }
+
+a:link:hover,
+a:visited:hover,
+a:active:hover {
+  color: #FFF; }
+
+.nav {
+  position: fixed;
+  width: 30px;
+  height: 84px;
+  z-index: 100;
+  right: 0;
+  top: 50%;
+  margin-top: -42px; }
+
+.nav a {
+  text-indent: -9999px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: rgba(170, 180, 191, 0.7);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -ms-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s; }
+
+.nav a:hover {
+  background: #9013FE;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -ms-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s; }
+
+.mb-7 {
+  margin: 100px 0 0 0; }
+
+.mb-8 {
+  margin: 50px 0 100px 0;
+  font-weight: 300;
+  color: #2A3A44;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5em; }
+
+.centered {
+  text-align: center; }

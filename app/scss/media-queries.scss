@@ -1,0 +1,174 @@
+
+
+//RETINA IMAGES @2x
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+
+  .hearts-wedding{
+    background: url(#{$url-image-path}/hearts-wedding@2x.png) top left no-repeat;
+    background-size: 118px 24px;
+  }
+
+  .church-ico{
+    background: url(#{$url-image-path}/igreja@2x.png) top left no-repeat;
+    background-size: 66px 112px;
+  }
+
+  .drink-ico{
+    background: url(#{$url-image-path}/drink@2x.png) top left no-repeat;
+    background-size: 72px 103px;
+  }
+
+}
+
+// CENTER ALIGN MENU
+@media(min-width:992px) {
+ .vt-navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1400px) {
+  .quando-section, 
+  .onde-section, 
+  .casal-photos-section, 
+  .RSVP-section, 
+  .presentes-section, 
+  .ondeficar-section{
+     padding-top: 150px;
+     height: 80%;
+  }
+
+  .intro-section{
+    height: 70%;
+  }
+
+  .ondeficar-section{
+    height: 140%;
+  }
+
+ } // END MEDIA QUERIES
+
+
+// Extra small devices (portrait phones, less than 544px)
+@media (max-width: 767px) {
+
+  .title-intro{
+  	font-size: 38px;
+  }
+
+  .intro-section{
+    padding-top: 100px;
+  }
+
+  ////// QUANDO ///////
+
+  .quando-section {
+      height: 1400px;
+  }
+
+  .cardoso, .van{
+  	margin: 0 auto;
+  	margin-bottom: 40px;
+  }
+
+  .hearts-wedding{
+  	padding-top: 40px;
+  }
+
+  .wedding p{
+  	letter-spacing: 0.44em;
+  	font-size: 33px;
+  }
+
+  .wedding-date{
+  padding: 20px 0 10px 9px;
+  }
+
+  .faltam-apenas span{
+  	padding-bottom: 30px;
+  }
+
+  #countdown-wedding{
+  	font-size: 28px;
+  }
+
+  ////// ONDE ///////
+
+  .onde-section{
+  	height: 1220px;
+  }
+
+  .onde-recepcao{
+  	padding-top: 60px;
+  }
+
+  .btn-maps{
+  	margin-top: 60px;
+  }
+
+  ////// NÓS ///////
+  .casal-photos-section{
+    height: 800px;
+  }
+
+
+  ////// RSVP ///////
+
+  .RSVP-section{
+  	height: 1070px;
+  }
+
+  .text-RSVP{
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: $default-color;
+  }
+  .input-custom{
+    width: 260px;
+  }
+
+  ////// PRESENTES ///////
+
+  .presentes-section{
+  	height: 1100px;
+  }
+  .box-presentes{
+  	margin-top: 20px;
+    width: 290px;
+  }
+
+  ////// ONDE FICAR MAPS ///////
+
+  .ondeficar-section{
+  	height: 1300px;
+  }
+
+  .footer-text{
+    font-size: 25px;
+  }
+
+
+
+} // end media queries

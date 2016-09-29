@@ -1,0 +1,40 @@
+<div id="commentList"></div>
+<div id="addCommentContainer">
+    <p>Add a Comment</p> <br/> <br/>
+    <form id="addCommentForm" method="post" action="">
+        <div>
+            Your Name <br/>
+            <input type="text" name="name" id="name" />
+
+
+            <br/> <br/>
+            Comment Body <br/>
+            <textarea name="body" id="body" cols="20" rows="5"></textarea>
+
+            <input type="submit" id="submit" value="Submit" />
+        </div>
+    </form>
+</div>​
+<script type="text/javascript">
+$(document).ready(function(){
+    /* The following code is executed once the DOM is loaded */
+
+    /* This flag will prevent multiple comment submits: */
+    var working = false;
+    $("#submit").click(function(){
+    $.ajax({
+         type: 'POST',
+         url: "mysubmitpage.php",
+         data: $('#addCommentForm').serialize(), 
+         success: function(response) {
+            alert("Submitted comment"); 
+             $("#commentList").append("Name:" + $("#name").val() + "<br/>comment:" + $("#body").val());
+         },
+        error: function() {
+             //$("#commentList").append($("#name").val() + "<br/>" + $("#body").val());
+            alert("There was an error submitting comment");
+        }
+     });
+});
+});​
+</script>

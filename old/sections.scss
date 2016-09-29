@@ -1,0 +1,153 @@
+/* =========================
+
+		SECTION STYLES 
+
+   =========================*/
+#startHeader, //inicio
+#when, //quando
+#where, // onde
+#wePhotos, // nós
+#RSVP, // confirmar presença
+#gifts, // presentes
+#accommodation, // onde ficar
+#footer { //footer
+  position: relative; 
+}
+
+
+.start-block,
+.footer-block {
+  height: 390px;
+  width: 100%;
+  position: absolute;
+}
+
+
+.startHeader-image {
+  width: auto;
+  height: auto; 
+}
+
+
+.footer-block {
+  height: 180px;
+  margin-top: -90px; 
+}
+
+#startHeader {
+  background-color: red;
+ }
+
+
+
+
+
+#when {
+  background: #2A3A44; 
+}
+
+
+
+
+
+
+
+
+
+#where {
+  background: #FFF; }
+
+.down-arrow {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -55px;
+  width: 110px;
+  height: 40px;
+  background: url("../img/arrow.png") no-repeat; }
+
+  #where .focust{ 
+    font-size: 120px; 
+    font-family: 'Montserrat', sans-serif;
+    color: #9013FE;
+    letter-spacing: -4px;  
+  }
+  
+  #where .focusn{ 
+    font-size: 24px; 
+    color: #2A3A44;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+
+  #where span.lets{ 
+    color: #2A3A44;
+    font-weight: 800;
+    
+  }
+
+
+ #where ul li a:link, a:visited, a:active {
+  font-weight: 300; 
+  font-size: 16px;
+  color:#2A3A44;
+  text-decoration: none; 
+  }
+
+  #where .container a:link:hover, a:visited:hover, a:active:hover{
+    color: #B2B3B3;
+  }
+  
+
+ #where ul li a:link:hover, a:visited:hover, a:active:hover {
+    color: #B2B3B3;
+
+  }
+  
+
+
+  #where ul{ 
+    list-style-type: none;
+    text-align: center;
+    
+  }
+
+ #where ul li{ 
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.2em;
+    
+  }
+
+ #where ul li p{ 
+    color: #2A3A44;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    
+  }
+
+  /* =========================
+
+      When - Quando?
+
+   =========================*/
+
+#when .showcase {
+
+}
+
+.showcase-tiles {
+  padding-top:0px;
+  display: block;
+}
+
+.showcase-info {
+  display: table-row; }
+
+.showcase-info {
+  text-align: center; }
+
+ 
